@@ -1,5 +1,0 @@
-build:
-  docker:
-    web: dockerfile
-run:
-  web: gunicorn -b :8080 app:wsgi_application
